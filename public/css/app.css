@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tex  {
+     background-image: url(../img/IMG_3246-2-scaled-1.jpg ) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: calc(200vh - 50px);
+     position: relative;
+
+     
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+}
+.nav-link {
+    /* margin-left: 15px; */
+    text-indent: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #333;
+}
+.lin {
+
+    position: absolute;
+    top: 0;
+    right: 28%;
+    justify-content: space-between;
+}
+.dr {
+    list-style: none;
+    position: absolute;
+    right: 50%;
+    bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+}
+
